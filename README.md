@@ -71,10 +71,10 @@ The charging/discharging rates were found for the sample electrodes using GCD. A
 Here, I = current (A), Δt = discharge time (s), A = surface area (cm2),
 ΔV = Potential difference (V)
 
-The GCD graph : 
+The GCD graph :                                                             
 <img width="487" alt="GCD_final" src="https://github.com/Guruprasad712/DATA_PROJECT_3/assets/160844022/f73a44ee-0cca-4b3b-8dfc-3689b25b060f">
 
-The areal capacitence of the samples are :
+The areal capacitence of the samples are :                                                                      
 <img width="300" alt="GCD_table" src="https://github.com/Guruprasad712/DATA_PROJECT_3/assets/160844022/d6ff9a22-263e-4086-9c99-af67ac16d662">
 
 ### Electrochemical Impedance Spectroscopy
