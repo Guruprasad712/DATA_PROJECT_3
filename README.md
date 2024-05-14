@@ -30,15 +30,33 @@ It was employed to analyze the behavior of the electrode-electrolyte interface. 
 
 The data were collected and plotted using OrigaLys and MatplotLib respectively.
 
-Python code for plotting these graphs : 
+An exampmle Python code for plotting these graphs : 
 ```python
 #The required libraries
 import matplotlib.pyplot as plt
 import pandas as pd
 %matplotlib inline
+
+#Cyclic Voltammetry
+
+CV_1 = pd.read_excel("CV_1.xlsx")
+CV_2 = pd.read_excel("CV_2.xlsx")
+CV_3 = pd.read_excel("CV_3.xlsx")
+
+plt.figure(figsize=(7, 3.5)) 
+
+# Plot the CV curves
+plt.plot(CV_1['Potential [mV]-25'],CV_1['Current [µA]-25'], label="sample 1")
+plt.plot(CV_2['Potential [mV]-25'],CV_2['Current [µA]-25'], label="sample 2",color = 'yellow')
+plt.plot(CV_3['Potential [mV]-25'],CV_3['Current [µA]-25'], label="sample 3",color = 'red')
+
+# Set axis labels and title
+plt.xlabel("Potential (mV)")
+plt.ylabel("Current (µA)")
+plt.title("Cyclic Voltammetry at 25 mV/s")
+plt.legend()
 ```
-- CV
-```python
+## Results and findings
 
 
 
